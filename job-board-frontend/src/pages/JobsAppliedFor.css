@@ -1,0 +1,102 @@
+/* Container styling */
+.applied-jobs-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.applied-jobs-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0073e6;
+  text-align: center;
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff4d4d;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Applied job list styling */
+.applied-job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.applied-job-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.applied-job-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.applied-job-card h3 {
+  font-size: 20px;
+  color: #0073e6;
+  margin-bottom: 5px;
+}
+
+.applied-job-card p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Status styling */
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Status color indicators */
+.status.applied {
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.status.accepted {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+}
+
+.status.rejected {
+  color: #d32f2f;
+  background-color: #ffebee;
+}
+
+.status.hold {
+  color: #f57c00;
+  background-color: #fff3e0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .applied-jobs-container {
+    padding: 20px;
+  }
+
+  .applied-jobs-container h2 {
+    font-size: 22px;
+  }
+
+  .applied-job-card h3 {
+    font-size: 18px;
+  }
+}

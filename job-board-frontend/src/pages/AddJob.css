@@ -1,0 +1,87 @@
+/* Container styling */
+.add-job-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.add-job-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0073e6;
+  text-align: center;
+}
+
+/* Form styling */
+.add-job-form input,
+.add-job-form textarea,
+.add-job-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.add-job-form input:focus,
+.add-job-form textarea:focus,
+.add-job-form select:focus {
+  border-color: #0073e6;
+  outline: none;
+  background-color: #fff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Button styling */
+.add-job-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0073e6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-job-form button:hover {
+  background-color: #005bb5;
+  box-shadow: 0 4px 10px rgba(0, 115, 230, 0.3);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .add-job-container {
+    padding: 20px;
+  }
+
+  .add-job-container h2 {
+    font-size: 22px;
+  }
+
+  .add-job-form input,
+  .add-job-form textarea,
+  .add-job-form select {
+    font-size: 14px;
+  }
+
+  .add-job-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

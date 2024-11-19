@@ -1,0 +1,152 @@
+/* Container styling */
+.applications-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.applications-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0073e6;
+  text-align: center;
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff4d4d;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Application list styling */
+.application-list {
+  list-style: none;
+  padding: 0;
+}
+
+.application-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.application-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.application-card p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.application-card .status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Recruiter Notes styling */
+.recruiter-notes {
+  margin-top: 15px;
+}
+
+.recruiter-notes textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+.recruiter-notes textarea:focus {
+  border-color: #0073e6;
+  outline: none;
+}
+
+/* Status color indicators */
+.status.accepted {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+}
+
+.status.rejected {
+  color: #d32f2f;
+  background-color: #ffebee;
+}
+
+.status.hold {
+  color: #f57c00;
+  background-color: #fff3e0;
+}
+
+/* Status buttons */
+.status-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.status-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+}
+
+.status-button.accept {
+  background-color: #2e7d32;
+}
+
+.status-button.accept:hover {
+  background-color: #1b5e20;
+}
+
+.status-button.reject {
+  background-color: #d32f2f;
+}
+
+.status-button.reject:hover {
+  background-color: #b71c1c;
+}
+
+.status-button.hold {
+  background-color: #f57c00;
+}
+
+.status-button.hold:hover {
+  background-color: #e65100;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .applications-container {
+    padding: 20px;
+  }
+
+  .applications-container h2 {
+    font-size: 22px;
+  }
+
+  .status-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,66 @@
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .navbar .logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2d3e50;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: #555;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .sign-in {
+    color: #3b82f6;
+    margin-left: 1.5rem;
+  }
+  
+  .get-started {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1.5rem;
+  }
+  
+  .get-started:hover {
+    background-color: #2563eb;
+  }
+  
+  .logout-button {
+    background: none;
+    border: none;
+    color: #555;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
+  

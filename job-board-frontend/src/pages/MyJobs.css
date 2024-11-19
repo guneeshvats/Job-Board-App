@@ -1,0 +1,88 @@
+/* Container styling */
+.my-jobs-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.my-jobs-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0073e6;
+  text-align: center;
+}
+
+/* Job list styling */
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.job-card h3 {
+  font-size: 20px;
+  color: #0073e6;
+  margin-bottom: 5px;
+}
+
+.job-card p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+/* See applicants button */
+.see-applicants-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.see-applicants-button:hover {
+  background-color: #005bb5;
+  box-shadow: 0 4px 10px rgba(0, 115, 230, 0.3);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .my-jobs-container {
+    padding: 20px;
+  }
+
+  .my-jobs-container h2 {
+    font-size: 22px;
+  }
+
+  .job-card h3 {
+    font-size: 18px;
+  }
+
+  .see-applicants-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

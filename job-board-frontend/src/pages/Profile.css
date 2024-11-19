@@ -1,0 +1,160 @@
+/* General container styling */
+.profile-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Profile headings */
+  .profile-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .profile-container h3, .profile-container h4 {
+    color: #0073e6;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* Profile fields */
+  .profile-field {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-field strong {
+    color: #0073e6;
+    font-weight: 600;
+    width: 100px;
+  }
+  
+  /* Form styling */
+  .profile-container input[type="text"],
+  .profile-container input[type="email"],
+  .profile-container input[type="password"],
+  .profile-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    transition: all 0.2s;
+  }
+  
+  .profile-container input:focus,
+  .profile-container textarea:focus {
+    border-color: #0073e6;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Buttons */
+  .primary-btn, .secondary-btn, .danger-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px 0;
+    transition: all 0.3s;
+    display: inline-block;
+  }
+  
+  .primary-btn {
+    background-color: #0073e6;
+    color: #fff;
+  }
+  
+  .primary-btn:hover {
+    background-color: #005bb5;
+    box-shadow: 0px 4px 10px rgba(0, 115, 230, 0.3);
+  }
+  
+  .secondary-btn {
+    background-color: #ddd;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #bbb;
+    box-shadow: 0px 4px 8px rgba(100, 100, 100, 0.2);
+  }
+  
+  .danger-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .danger-btn:hover {
+    background-color: #cc0000;
+    box-shadow: 0px 4px 10px rgba(255, 77, 77, 0.3);
+  }
+  
+  /* Section container styling */
+  .profile-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f1f8ff;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Divider for each profile section */
+  .profile-section h3, .profile-section h4 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .profile-container {
+      padding: 20px;
+    }
+    
+    .profile-container h2 {
+      font-size: 22px;
+    }
+  
+    .profile-container input, .profile-container textarea {
+      font-size: 14px;
+    }
+  
+    .primary-btn, .secondary-btn, .danger-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
